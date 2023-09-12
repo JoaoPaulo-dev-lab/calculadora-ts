@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var Extensao_1 = require("./base/Extensao");
+var calc = new Extensao_1.Extensao();
+calc.calculo(1, "+", 5);
+calc.showValue();
+calc.calculo(1, "-", 5);
+calc.showValue();
+calc.calculo(1, "*", 5);
+calc.showValue();
+calc.calculo(1, "/", 5);
+calc.showValue();
